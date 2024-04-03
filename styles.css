@@ -1,0 +1,80 @@
+body {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+nav {
+    background: rgb(160, 160, 160);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-family: "Bubblegum Sans";
+}
+
+table, th, td {
+    border: 3px solid;
+}
+
+th {
+    background-color: rgb(11, 117, 11);
+}
+
+tr {
+    background-color: whitesmoke;
+}
+
+tr th {
+    border-color: black;
+    color: white;
+}
+
+tr td {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+nav img {
+    height: 45px;
+    margin-left: 10px;
+}
+
+nav * {
+    display: inline;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+ul li {
+    background-image: url("images/money_emoji.png");
+    background-size: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 2rem;
+}
+
+.main-image {
+    height: 300px;
+    width: 300px;
+}
+video {
+    object-fit: fill;
+    height: 300px;
+    width: 300px;
+}
+  
