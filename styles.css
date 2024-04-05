@@ -72,9 +72,35 @@ ul li {
     height: 300px;
     width: 300px;
 }
+
+.site-image {
+    width: 250px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 video {
     object-fit: fill;
     height: 300px;
     width: 300px;
+}
+
+.sites-grid {
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(214, 169, 19);
+    padding: 10px;
+}
+
+.sites-grid-item {
+    display: flex;
+    border: 1px solid;
+    background-color: rgba(255, 222, 77, 0.692);
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
   
